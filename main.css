@@ -1,0 +1,55 @@
+@import url('http://necolas.github.io/normalize.css/3.0.1/normalize.css');
+h1 {
+	background-image: url('saddleback.jpg') ;
+	text-align:center;
+	font-family: lobster, cursive;
+	color:white;
+	margin-top: 0;
+	font-size: 48px;
+	padding: 20px;
+	text-shadow: 10px 5px 1px #000; 
+	border-color: ;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 20px;
+}
+
+img {
+	
+	max-height: 300px;
+	max-width: 100%;
+}
+
+header {
+	text-align: center;
+	font-size: 36px;
+	background-color: #B27300;
+	margin-top: 0;
+}
+
+nav {
+	text-align: center;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+p {
+	display: block;
+	text-align: center;
+}
+
+.name {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+body {
+	background-image: url('saddleback large.jpg') disabled;
+	background-repeat: no-repeat; 
+	background-size: 100%;
+	background-color: #BADAFF;
+}
