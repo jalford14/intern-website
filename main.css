@@ -46,9 +46,10 @@ h1 {
 	margin-top: -35px;
 }
 
-.link-nav a {
+.link-nav li {
 	text-decoration: none;
-	color: black;
+	display: inline-block;
+	margin: 20px;
 }
 
 .link-nav a:hover {
@@ -66,7 +67,7 @@ body {
 	background-color: rgba(125, 125, 125, .75);
 }
 
-li {
+.pictures li {
 	list-style-type: none;
 	display: inline-block;
 	margin: 20px;
