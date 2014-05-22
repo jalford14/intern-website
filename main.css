@@ -44,24 +44,16 @@ h1 {
 	font-size: 36px;
 	text-align: center;
 	margin-top: -35px;
+	list-style-type: none;
 }
 
-.link-nav li {
+.link-nav a {
 	text-decoration: none;
-	display: inline-block;
-	margin: 20px;
+	color: black;
 }
 
 .link-nav a:hover {
 	color: white;
-}
-
-.nav-item {
-	background-color: none;
-}
-
-.selected {
-	background-color: tomato;
 }
 
 
@@ -75,11 +67,7 @@ body {
 	background-color: rgba(125, 125, 125, .75);
 }
 
-<<<<<<< HEAD
 .pictures li {
-=======
-body li {
->>>>>>> 4a6545408804f5522fbb2f3c6e97b417a38b93f2
 	list-style-type: none;
 	display: inline-block;
 	margin: 20px;
