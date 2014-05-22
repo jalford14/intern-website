@@ -56,6 +56,14 @@ h1 {
 	color: white;
 }
 
+.nav-item {
+	background-color: none;
+}
+
+.selected {
+	background-color: tomato;
+}
+
 
 /*==================
 =========BODY=======
@@ -67,11 +75,15 @@ body {
 	background-color: rgba(125, 125, 125, .75);
 }
 
+<<<<<<< HEAD
 .pictures li {
+=======
+body li {
+>>>>>>> 4a6545408804f5522fbb2f3c6e97b417a38b93f2
 	list-style-type: none;
 	display: inline-block;
 	margin: 20px;
-	background-color: rgba(225, 225, 225, .6)
+	background-color: rgba(225, 225, 225, .6);
 }
 
 img {
