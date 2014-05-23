@@ -6,7 +6,7 @@
 ==================*/
 
 html { 
-        background: url('saddleback large.jpg') no-repeat center center fixed; 
+        background: url('group.jpg') no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -84,7 +84,7 @@ body {
 img {
 	
 	max-height: 300px;
-	max-width: 100%;
+	max-width: 69%;
 }
 
 .name {

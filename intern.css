@@ -5,7 +5,7 @@
 ==================*/
 
 html { 
-        background: url('saddleback large.jpg') no-repeat center center fixed; 
+        background: url('group.jpg') no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -71,11 +71,12 @@ h2 {
 	text-align: center;
 }
 
-.jimmy_picture {
+.intern_picture {
 	max-height: 300px;
 	max-width: 100%;
-	border-radius: 50%;
+	border-radius: 10%;
 	padding: 10px;
+	display: -webkit-flex;
 }
 
 body {
@@ -85,12 +86,20 @@ body {
 
 .bio li {
 	font-family: 'Open Sans', sans-serif; 
-	font-size: 30px;
+	font-size: 25px;
 	list-style-type: none;
+	padding: 20px;
+
 }
 
 .bio {
 	font-size: 19px;
+	display: -webkit-flex;
+	-webkit-flex-direction:column-row;
 }
+
+
+
+
 
 
