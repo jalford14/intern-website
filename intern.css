@@ -98,7 +98,10 @@ body {
 	-webkit-flex-direction:column-row;
 }
 
-
+.intern_picture:hover {
+	background-image: url('lisa cool.jpg');
+	transition-property: background-image;
+}
 
 
 
