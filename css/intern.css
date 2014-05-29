@@ -1,108 +1,88 @@
 @import url('http://necolas.github.io/normalize.css/3.0.1/normalize.css');
 
 /*==================
+=======COLORS=======
+
+Primary Color: Dark Blue, #008BB2, 0, 139, 178
+Secondary Color: Light Blue, #80E3FF, 128, 227, 255
+Compliment: Medium Blue, #00C6FF, 0, 198, 255
+
+Sup: Dark Sand, #B25800, 178, 88, 0
+Sup: Light Sand, #FFBF81, 255, 191, 129
+
+==================*/
+/*==================
 =======HEADER=======
 ==================*/
 
-html { 
-        background: url('group.jpg') no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+html {
+	background-color: #80E3FF;
 }
 
 header {
-	background-image: url('saddleback.jpg');
+	background-color: #008BB2;
+	height: 100%;
 }
 
 
 h1 {	
-	text-align: center;
 	font-family: lobster, cursive;
 	color: white;
-	margin-top: 0;
-	font-size: 48px;
+	font-size: 3em;
+	display: block;
+	margin: 0;
 	padding: 20px;
-	background-color: rgba(125, 125, 125, .7);
-	text-shadow: 0px 0px 7px black
+	position: absolute;
+	/*left: -70%;*/
 }
 
 .title {
-	letter-spacing: 13px;
-    color: lightgrey;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+	letter-spacing: 5px;
+    color: #fff;
 }
 
 .link-nav {
-	background-color: #819aa9;
-	font-size: 36px;
-	text-align: center;
-	margin-top: -35px;
+	font-size: 30px;
 	list-style-type: none;
+	display: inline-block;
+	text-align: right;
+	margin: 90px 0 0 0;
+	padding-bottom: 20px;
 }
-
 
 .link-nav li {
 	display: inline-block;
-	margin-right: 40px;
-	padding: 10px;
+	margin-right: 30px;
 }
 
 .link-nav a {
 	text-decoration: none;
-	color: black;
+	color: #FFBF81;
 }
 
 .link-nav a:hover {
-	color: white;
+	color: #B25800;
 }
 
 /*==================
 =========BODY=======
 ==================*/
 
-h2 {
-	padding: 0 0 0 10px;
-	text-align: center;
+.bio {
+	margin-left: 20px;
+	padding: 3px;
+	font-size: 36px;
 }
 
-.intern_picture {
-	max-height: 300px;
-	max-width: 100%;
-	border-radius: 10%;
-	padding: 10px;
-	display: -webkit-flex;
-}
-
-body {
-	background-repeat: no-repeat; 
-	background-color: rgba(125, 125, 125, .75);
+.img {
+	width: 60%;
+	max-width: 700px;
+	border-radius: 10px;
+	margin: 0px auto 0px 20px;
 }
 
 .bio li {
-	font-family: 'Open Sans', sans-serif; 
-	font-size: 25px;
-	list-style-type: none;
-	padding: 20px;
-
+	float: left;
+	list-style: none;
+	display: flex;
 }
-
-.bio {
-	font-size: 19px;
-	display: -webkit-flex;
-	-webkit-flex-direction:column-row;
-}
-
-.intern_picture:hover {
-	background-image: url('lisa cool.jpg');
-	transition-property: background-image;
-}
-
-
-
-

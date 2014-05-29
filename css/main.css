@@ -24,18 +24,26 @@ header {
 	height: 100%;
 }
 
-h1 {	
+.title {
 	font-family: lobster, cursive;
 	color: white;
 	font-size: 3em;
-	display: block;
+	display: flex;
 	margin: 0;
 	padding: 20px;
-}
-
-.title {
+	position: absolute;
 	letter-spacing: 5px;
     color: #fff;
+    -webkit-animation-name: slide;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-delay: 1.5s;
+}
+
+/*Keyframes*/
+
+@-webkit-keyframes slide{
+	0%     { left:-70%; } 
+	100%   { left:  0px; }
 }
 
 .link-nav {
@@ -43,13 +51,14 @@ h1 {
 	list-style-type: none;
 	display: inline-block;
 	text-align: right;
-	margin: 10px 0 0 0;
+	margin: 90px 0 0 0;
 	padding-bottom: 20px;
 }
 
 .link-nav li {
 	display: inline-block;
 	margin-right: 30px;
+	border: solid #80E3FF;
 }
 
 .link-nav a {
@@ -79,6 +88,11 @@ h1 {
 	margin-bottom: 20px;
 }
 
+.interns li:hover {
+	border: solid black;
+	transition: .2s;
+}
+
 img {
 	width: 100%;
 }
@@ -98,4 +112,10 @@ p {
 	color: white;
 	margin: 0;
 	padding: 5px;
+}
+
+@media (max-width: 533px) {
+	.title {
+		font-size: 20px;
+	}
 }
