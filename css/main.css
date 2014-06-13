@@ -16,40 +16,43 @@ Sup: Light Sand, #FFBF81, 255, 191, 129
 ==================*/
 
 html {
-	background-color: #80E3FF;
+	background-color: #91AA9D;
 }
 
 header {
-	background-color: #008BB2;
+	background-color: #193441;
 	height: 100%;
 }
 
 .title {
-	font-family: lobster, cursive;
+	font-family: georgia, cursive;
 	color: white;
 	font-size: 3em;
 	display: flex;
 	margin: 0;
 	padding: 20px;
-	position: absolute;
+	/*position: absolute;*/
 	letter-spacing: 5px;
     color: #fff;
-    -webkit-animation-name: slide;
+    display: inline;
+
+
+    /*-webkit-animation-name: slide;
     -webkit-animation-duration: 5s;
-    -webkit-animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;*/
 }
 
 /*Keyframes*/
 
-@-webkit-keyframes slide{
+/*@-webkit-keyframes slide{
 	0%     { left:-70%; } 
 	100%   { left:  0px; }
-}
+}*/
 
 .link-nav {
 	font-size: 30px;
 	list-style-type: none;
-	display: inline-block;
+	display: inline;
 	text-align: right;
 	margin: 90px 0 0 0;
 	padding-bottom: 20px;
@@ -57,8 +60,9 @@ header {
 
 .link-nav li {
 	display: inline-block;
-	margin-right: 30px;
-	border: solid #80E3FF;
+	margin: 10px 30px 0px auto;
+	float: right;
+	/*border: solid #80E3F*/;
 }
 
 .link-nav a {
@@ -82,7 +86,7 @@ header {
 .interns li {
 	list-style-type: none;
 	display: inline-block;
-	background-color: rgb(255, 191, 129);
+	/*background-color: rgb(255, 191, 129);*/
 	max-width: 350px;
 	margin-right: 35px;
 	margin-bottom: 20px;
@@ -97,14 +101,14 @@ img {
 	width: 100%;
 }
 
-.name {
+/*.name {
 	font-weight: bold;
 	font-size: 22px;
 	font-style: italic;
-	color: #008BB2;
+	background: rgba(255, 191, 129, .2);
 	margin: 0;
 	padding: 5px;
-}
+}*/
 
 p {
 	display: block;

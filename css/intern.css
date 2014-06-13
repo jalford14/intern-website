@@ -84,5 +84,5 @@ h1 {
 .bio li {
 	float: left;
 	list-style: none;
-	display: flex;
+	/*display: flex;*/
 }
