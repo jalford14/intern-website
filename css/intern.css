@@ -16,30 +16,28 @@ Sup: Light Sand, #FFBF81, 255, 191, 129
 ==================*/
 
 html {
-	background-color: #80E3FF;
+	background-color: #DCDCDC;
 }
 
 header {
-	background-color: #008BB2;
+	background-color: #55626B;
 	height: 100%;
-}
-
-
-h1 {	
-	font-family: lobster, cursive;
-	color: white;
-	font-size: 3em;
-	display: block;
-	margin: 0;
-	padding: 20px;
-	position: absolute;
-	/*left: -70%;*/
+	padding: 40px 10px 40px 10px;
 }
 
 .title {
+	font-family: georgia, cursive;
+	color: white;
+	font-size: 3em;
+	margin: 0;
+	padding: 20px;
+	/*position: absolute;*/
 	letter-spacing: 5px;
-    color: #fff;
+    color: #DCDCDC;
+    display: inline;
 }
+
+
 
 .link-nav {
 	font-size: 30px;
