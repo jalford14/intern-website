@@ -26,47 +26,51 @@ header {
 }
 
 .title {
-	font-family: georgia, cursive;
+	font-family: Georgia;
 	color: white;
 	font-size: 3em;
 	margin: 0;
 	padding: 20px;
-	/*position: absolute;*/
+	position: absolute;
 	letter-spacing: 5px;
     color: #DCDCDC;
-    display: inline;
+    display: block;
 }
 
 
 
 .link-nav {
+	display: flex;
 	font-size: 30px;
 	list-style-type: none;
-	display: inline-block;
 	text-align: right;
 	margin: 90px 0 0 0;
 	padding-bottom: 20px;
 }
 
 .link-nav li {
-	display: inline-block;
-	margin-right: 30px;
+	
+	/*border: solid #80E3F*/;
 }
 
 .link-nav a {
+	display: flex;
 	text-decoration: none;
-	color: #FFBF81;
+	color: #DCDCDC;
+	/*margin: 15px 0px 15px 0px;*/
+	padding: 0px 10px 0px 10px;
 }
 
 .link-nav a:hover {
 	color: #B25800;
+
 }
 
 /*==================
 =========BODY=======
 ==================*/
 
-.bio {
+.name {
 	margin-left: 20px;
 	padding: 3px;
 	font-size: 36px;
@@ -79,8 +83,6 @@ header {
 	margin: 0px auto 0px 20px;
 }
 
-.bio li {
-	float: left;
+.bio {
 	list-style: none;
-	/*display: flex;*/
 }
