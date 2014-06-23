@@ -24,17 +24,16 @@ html {
 header {
 	background-color: #55626B;
 	height: 100%;
-	padding: 40px 10px 40px 10px;
+	padding: 40px 0px 40px 0px;
+	position: static;
 }
 
 .title {
-	font-family: Georgia;
+	/*font-family: Georgia;*/
 	color: white;
 	font-size: 3em;
 	margin: 0;
 	padding: 20px;
-	position: absolute;
-	letter-spacing: 5px;
     color: #DCDCDC;
     display: block;
 
@@ -52,11 +51,11 @@ header {
 }*/
 
 .link-nav {
-	display: flex;
+	/*display: flex;*/
 	font-size: 30px;
 	list-style-type: none;
 	text-align: center;
-	margin: 90px 0 0 0;
+	/*margin: 90px 0 0 0;*/
 	padding-bottom: 20px;
 }
 
@@ -66,7 +65,7 @@ header {
 }
 
 .link-nav a {
-	display: flex;
+	float: right;
 	text-decoration: none;
 	color: #DCDCDC;
 	/*margin: 15px 0px 15px 0px;*/
@@ -83,7 +82,7 @@ header {
 =========BODY=======
 ==================*/
 
-.current {
+.current, #past {
 	color: #55626B;
 	padding-left: 30px;
 }
@@ -114,10 +113,10 @@ img {
 .name {
 	font-weight: bold;
 	font-size: 22px;
-	font-style: italic;
 	background: rgba(255, 191, 129, .2);
 	margin: 0;
 	padding: 5px;
+	/*font-family: Georgia;*/
 }
 
 p {

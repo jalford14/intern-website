@@ -26,13 +26,12 @@ header {
 }
 
 .title {
-	font-family: Georgia;
+	/*font-family: Georgia;*/
 	color: white;
 	font-size: 3em;
 	margin: 0;
 	padding: 20px;
 	position: absolute;
-	letter-spacing: 5px;
     color: #DCDCDC;
     display: block;
 }
