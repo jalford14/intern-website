@@ -23,6 +23,7 @@ header {
 	background-color: #55626B;
 	height: 100%;
 	padding: 40px 10px 40px 10px;
+	position: static;
 }
 
 .title {
@@ -31,19 +32,24 @@ header {
 	font-size: 3em;
 	margin: 0;
 	padding: 20px;
-	position: absolute;
     color: #DCDCDC;
     display: block;
+    position: absolute;
+
+
+    /*-webkit-animation-name: slide;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-delay: 1.5s;*/
 }
 
 
 
 .link-nav {
-	display: flex;
+	/*display: flex;*/
 	font-size: 30px;
 	list-style-type: none;
-	text-align: right;
-	margin: 90px 0 0 0;
+	text-align: center;
+	/*margin: 90px 0 0 0;*/
 	padding-bottom: 20px;
 }
 
@@ -53,15 +59,17 @@ header {
 }
 
 .link-nav a {
-	display: flex;
+	float: right;
 	text-decoration: none;
 	color: #DCDCDC;
 	/*margin: 15px 0px 15px 0px;*/
 	padding: 0px 10px 0px 10px;
+
 }
 
+
 .link-nav a:hover {
-	color: #B25800;
+	color: #008BB2;
 
 }
 
