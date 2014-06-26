@@ -27,13 +27,15 @@ header {
 }
 
 .title {
-	/*font-family: Georgia;*/
 	color: white;
-	font-size: 3em;
+	font-size: 2em;
 	margin: 0;
-	padding: 20px;
+	padding: 10px;
     color: #DCDCDC;
     display: block;
+    font-family: "jaf-facitweb", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
     position: absolute;
 
 
@@ -92,4 +94,60 @@ header {
 
 .bio {
 	list-style: none;
+}
+
+/*==================
+=========DROPDOWN MENU=======
+==================*/
+
+#body {
+    padding: 0;
+    margin: 0;
+    font-family: "jaf-facitweb";
+    font-size: 17px;
+}
+#nav {
+    background-color: #222;
+}
+#nav_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    min-width: 200px;
+}
+#nav ul li {
+    display: inline-block;
+    font-size: 18px;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #CCC;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    border: 5px solid #222;
+    border-top: 0;
+    margin-left: -5px;
+}
+#nav ul ul li {
+    display: block;
+}
+#nav ul ul li a:hover {
+    color: #699;
 }
