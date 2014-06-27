@@ -20,6 +20,7 @@ html {
 }
 
 header {
+    /*background: linear-gradient(to right, #55626B , black);*/
 	background-color: #55626B;
 	height: 100%;
 	padding: 40px 10px 40px 10px;
@@ -28,7 +29,7 @@ header {
 
 .title {
 	color: white;
-	font-size: 2em;
+	font-size: 3em;
 	margin: 0;
 	padding: 10px;
     color: #DCDCDC;
@@ -107,7 +108,7 @@ header {
     font-size: 17px;
 }
 #nav {
-    background-color: #222;
+    /*background-color: #222;*/
 }
 #nav_wrapper {
     width: 960px;
@@ -120,19 +121,22 @@ header {
     margin: 0;
     position: relative;
     min-width: 200px;
+    text-align: center;
 }
 #nav ul li {
     display: inline-block;
-    font-size: 18px;
+    font-size: 22px;
 }
 #nav ul li:hover {
     background-color: #333;
+
 }
 #nav ul li a, visited {
     color: #CCC;
     display: block;
     padding: 15px;
     text-decoration: none;
+    text-align: left;
 }
 #nav ul li:hover ul {
     display: block;
@@ -141,9 +145,9 @@ header {
     display: none;
     position: absolute;
     background-color: #333;
-    border: 5px solid #222;
+    /*border: 5px solid #222;*/
     border-top: 0;
-    margin-left: -5px;
+   /* margin-left: -5px;*/
 }
 #nav ul ul li {
     display: block;
