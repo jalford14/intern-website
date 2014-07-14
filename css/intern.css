@@ -80,6 +80,7 @@ header {
 =========BODY=======
 ==================*/
 
+
 .name {
 	margin-left: 20px;
 	padding: 3px;
@@ -88,14 +89,34 @@ header {
 
 .img {
 	width: 60%;
-	max-width: 700px;
+	max-width: 600px;
 	border-radius: 10px;
-	margin: 0px auto 0px 20px;
+	margin: 0px 20px 0px 20px;
+    float: left;
+
+}
+
+.bio a:hover {
+    text-decoration: underline;
 }
 
 .bio {
 	list-style: none;
+    margin-bottom: 50px;
+    font-size: 18px;
 }
+
+.bio li{
+    padding: 10px;
+    overflow: hidden;
+}
+
+.bio a {
+    text-decoration: none;
+    color: #008BB2;
+};
+
+
 
 /*==================
 =========DROPDOWN MENU=======
@@ -108,7 +129,7 @@ header {
     font-size: 17px;
 }
 #nav {
-    /*background-color: #222;*/
+    /*float: right;*/
 }
 #nav_wrapper {
     width: 960px;
@@ -121,7 +142,7 @@ header {
     margin: 0;
     position: relative;
     min-width: 200px;
-    text-align: center;
+    text-align: right;
 }
 #nav ul li {
     display: inline-block;
@@ -155,3 +176,54 @@ header {
 #nav ul ul li a:hover {
     color: #699;
 }
+
+/*==================
+=========CONTACT=======
+==================*/
+
+.contact h2 {
+    margin: 0px 20px 0px;
+    border-top: solid #55626B 1px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.contact p {
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 18px
+}
+
+.contact p a {
+    text-decoration: none;
+    color: #008BB2;
+}
+
+.contact p a:hover {
+    text-decoration: underline;
+}
+
+.twitter-timeline {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
