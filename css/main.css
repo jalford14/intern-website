@@ -22,8 +22,8 @@ html {
 }
 
 header {
-	/*background: linear-gradient(to right, #55626B , black);*/
-	background: #55626B;
+    /*background: linear-gradient(to right, #55626B , black);*/
+	background-color: #55626B;
 	height: 100%;
 	padding: 40px 10px 40px 10px;
 	position: static;
@@ -33,14 +33,13 @@ header {
 	color: white;
 	font-size: 3em;
 	margin: 0;
-	padding: 10px, 20px, 10px, 10px;
+	padding: 10px;
     color: #DCDCDC;
     display: block;
     font-family: "jaf-facitweb", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     position: absolute;
-    text-align: left;
 
 
     /*-webkit-animation-name: slide;
@@ -48,33 +47,31 @@ header {
     -webkit-animation-delay: 1.5s;*/
 }
 
-/*Keyframes*/
 
-/*@-webkit-keyframes slide{
-	0%     { left:-70%; } 
-	100%   { left:  0px; }*/
-}
 
 .link-nav {
-	width: 100%
+	/*display: flex;*/
 	font-size: 30px;
 	list-style-type: none;
 	text-align: center;
+	/*margin: 90px 0 0 0;*/
 	padding-bottom: 20px;
 }
 
 .link-nav li {
+	
+	/*border: solid #80E3F*/;
 }
 
 .link-nav a {
 	float: right;
 	text-decoration: none;
 	color: #DCDCDC;
-	margin-top: 22px;
+	/*margin: 15px 0px 15px 0px;*/
 	padding: 0px 10px 0px 10px;
-	text-transform: uppercase;
-	font-size: 20px;
+
 }
+
 
 .link-nav a:hover {
 	color: #008BB2;
