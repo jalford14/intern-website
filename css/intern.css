@@ -77,48 +77,6 @@ header {
 }
 
 /*==================
-=========BODY=======
-==================*/
-
-
-.name {
-	margin-left: 20px;
-	padding: 3px;
-	font-size: 36px;
-}
-
-.img {
-	width: 60%;
-	max-width: 600px;
-	border-radius: 10px;
-	margin: 0px 20px 0px 20px;
-    float: left;
-
-}
-
-.bio a:hover {
-    text-decoration: underline;
-}
-
-.bio {
-	list-style: none;
-    margin-bottom: 50px;
-    font-size: 18px;
-}
-
-.bio li{
-    padding: 10px;
-    overflow: hidden;
-}
-
-.bio a {
-    text-decoration: none;
-    color: #008BB2;
-};
-
-
-
-/*==================
 =========DROPDOWN MENU=======
 ==================*/
 
@@ -178,14 +136,72 @@ header {
 }
 
 /*==================
-=========CONTACT=======
+=========BODY=======
 ==================*/
 
-.contact h2 {
-    margin: 0px 20px 0px;
-    border-top: solid #55626B 1px;
-    padding-top: 20px;
-    font-size: 30px;
+.sub_header {
+    margin: 0 auto 0 auto;
+}
+
+.single_photo {
+   /* border: solid;*/
+    max-width: 600px;
+ 
+}
+
+img {
+    width: 600px;
+    border-radius: 10px;
+    margin: 0px 20px 0px 20px;
+}
+
+.bio_wrapper {
+    float: right;
+}
+
+.bio li h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bio li h3 {
+    text-decoration: underline;
+}
+
+.name {
+	margin-left: 20px;
+	padding: 3px;
+	font-size: 36px;
+}
+
+
+
+.bio a:hover {
+    text-decoration: underline;
+}
+
+.bio {
+    font-size: 18px;
+    /*border: solid black;*/
+    float: right;
+}
+
+.bio li {
+    padding: 10px;
+    overflow: hidden;
+}
+
+.bio a {
+    text-decoration: none;
+    color: #008BB2;
+}
+
+/*==================
+=========CONTACT=======
+==================*/
+.contact{
+    float: left;
+    /*border: solid black;*/
 }
 
 .contact p {
@@ -208,22 +224,35 @@ header {
 }
 
 .back {
-    border: solid #55626B;
-    background: #55626B;
-    margin: 40px 20px 0px;
-    float: left;
-    padding: 8px;
     width: 200px;
-    font-size: 18px;    
+    font-size: 18px;  
+    float: right;
 }
 
 .back a {
+    color: #819aa9;
     text-decoration: none;
-    color: white;
-
 }
 
+.back a:hover {
+     text-decoration: underline;
+}
 
+/*==================
+=========FOOTER=======
+==================*/
+
+footer {
+    background-color: #55626B;
+    height: 100%;
+    padding: 40px 10px 40px 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    color: #DCDCDC;
+}
 
 
 
