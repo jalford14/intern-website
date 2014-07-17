@@ -105,6 +105,7 @@ header {
 #nav ul li {
     display: inline-block;
     font-size: 22px;
+
 }
 #nav ul li:hover {
     background-color: #333;
@@ -116,6 +117,7 @@ header {
     padding: 15px;
     text-decoration: none;
     text-align: left;
+
 }
 #nav ul li:hover ul {
     display: block;
@@ -130,6 +132,7 @@ header {
 }
 #nav ul ul li {
     display: block;
+    font-family: Calibri;
 }
 #nav ul ul li a:hover {
     color: #699;
@@ -143,29 +146,24 @@ header {
     margin: 0 auto 0 auto;
 }
 
-.single_photo {
-   /* border: solid;*/
-    max-width: 600px;
- 
-}
 
 img {
-    width: 600px;
+    max-width: 50%;
     border-radius: 10px;
     margin: 0px 20px 0px 20px;
+    float: left;
 }
 
 .bio_wrapper {
-    float: right;
+    float: left;
+    margin-left: 0px;
+    white-space: nowrap;
 }
 
-.bio li h1 {
-    padding: 0px;
-    margin: 0px;
-}
-
-.bio li h3 {
-    text-decoration: underline;
+.bio_wrapper .about {
+    margin-left: 0px;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .name {
@@ -174,38 +172,61 @@ img {
 	font-size: 36px;
 }
 
+.edu , .description {
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 0px;
+}
 
+.bio p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
-.bio a:hover {
+.bio_wrapper p {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.college a:hover {
+    text-decoration: underline;
+}
+
+.job a:hover {
     text-decoration: underline;
 }
 
 .bio {
-    font-size: 18px;
-    /*border: solid black;*/
-    float: right;
+    font-size: 20px;
+    float: left;
 }
 
-.bio li {
-    padding: 10px;
-    overflow: hidden;
-}
-
-.bio a {
+.college a {
     text-decoration: none;
     color: #008BB2;
 }
 
+.job a {
+    text-decoration: none;
+    color: #008BB2;
+}
+
+
 /*==================
 =========CONTACT=======
 ==================*/
-.contact{
+.contact {
     float: left;
-    /*border: solid black;*/
+    margin-left: 20px;
+    border-top: solid #55626B;
+}
+
+.contact h2 {
+    text-decoration: underline;
 }
 
 .contact p {
-    margin-left: 20px;
     padding-top: 10px;
     font-size: 18px
 }
@@ -225,17 +246,26 @@ img {
 
 .back {
     width: 200px;
+    margin: 0px 20px 0px auto;
     font-size: 18px;  
     float: right;
+    border: solid #55626B;
+    padding: 15px;
+    background: #55626B;
 }
 
 .back a {
-    color: #819aa9;
+    color: #CCC;
     text-decoration: none;
 }
 
 .back a:hover {
      text-decoration: underline;
+}
+
+.twitter {
+    width: 600px;
+    padding-bottom: 20px;
 }
 
 /*==================
