@@ -95,7 +95,7 @@ header {
 #interns li {
 	list-style-type: none;
 	display: inline-block;
-	/*background-color: rgb(255, 191, 129);*/
+	background-color: rgba(85, 98, 107, .7);
 	max-width: 350px;
 	margin-right: 35px;
 	margin-bottom: 20px;
@@ -113,9 +113,9 @@ img {
 .name {
 	font-weight: bold;
 	font-size: 22px;
-	background: rgba(255, 191, 129, .2);
 	margin: 0;
 	padding: 5px;
+	color: #dcdcdc;
 	/*font-family: Georgia;*/
 }
 
@@ -123,7 +123,7 @@ p {
 	display: block;
 	text-align: center;
 	padding: 5px;
-	color: /*#DCDCDC*/;
+	color: #DCDCDC;
 
 }
 
