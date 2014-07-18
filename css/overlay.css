@@ -1,0 +1,33 @@
+.simple_overlay {
+    display:none;
+    z-index:10000;
+    background-color:#333;
+    width:700px;
+    height: 300px;
+    -moz-box-shadow:0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000;
+}
+
+.details {
+    position:absolute;
+    top:15px;
+    right:15px;
+    font-size:16px;
+    width: 350px;
+  }
+
+.details h3 {
+    color:#aba;
+    font-size:30px;
+    }
+
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+    background-image:url(http://jquerytools.org/media/img/overlay/close.png);
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}

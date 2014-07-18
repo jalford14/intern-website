@@ -26,68 +26,31 @@ header {
 	background-color: #55626B;
 	height: 100%;
 	padding: 40px 10px 40px 10px;
-	position: static;
 }
 
 .title {
 	color: white;
+	text-align: center;
 	font-size: 3em;
 	margin: 0;
-	padding: 10px;
+	padding: 5px;
     color: #DCDCDC;
     display: block;
     font-family: "jaf-facitweb", sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    position: absolute;
-
-
-    /*-webkit-animation-name: slide;
-    -webkit-animation-duration: 5s;
-    -webkit-animation-delay: 1.5s;*/
-}
-
-
-
-.link-nav {
-	/*display: flex;*/
-	font-size: 30px;
-	list-style-type: none;
-	text-align: center;
-	/*margin: 90px 0 0 0;*/
-	padding-bottom: 20px;
-}
-
-.link-nav li {
-	
-	/*border: solid #80E3F*/;
-}
-
-.link-nav a {
-	float: right;
-	text-decoration: none;
-	color: #DCDCDC;
-	/*margin: 15px 0px 15px 0px;*/
-	padding: 0px 10px 0px 10px;
-
-}
-
-
-.link-nav a:hover {
-	color: #008BB2;
-
 }
 
 /*==================
 =========BODY=======
 ==================*/
 
-.current, #past {
+.current {
 	color: #55626B;
 	padding-left: 30px;
 }
 
-#interns, .interns {
+#interns {
 	text-align: center;
 	margin: 20px auto 0 auto;
 }
@@ -101,30 +64,10 @@ header {
 	margin-bottom: 20px;
 }
 
-/*.interns li:hover {
-	border: solid black;
-	transition: .2s;
-}*/
-
-img {
-	width: 100%;
-}
-
-.name {
-	font-weight: bold;
-	font-size: 22px;
-	margin: 0;
-	padding: 5px;
-	color: #dcdcdc;
-	/*font-family: Georgia;*/
-}
-
 p {
 	display: block;
 	text-align: center;
-	padding: 5px;
 	color: #DCDCDC;
-
 }
 
 /*==================
@@ -142,70 +85,7 @@ footer {
 	color: #DCDCDC;
 }
 
-/*==================
-=========LIGHTBOX MAYBE???????=======
-==================*/
-
-
-
-/*==================
-=========DROPDOWN MENU=======
-==================*/
-
-#body {
-    padding: 0;
-    margin: 0;
-    font-family: "jaf-facitweb";
-    font-size: 17px;
-}
-#nav {
-    /*float: right;*/
-}
-#nav_wrapper {
-    width: 960px;
-    margin: 0 auto;
-    text-align: left;
-}
-#nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    min-width: 200px;
-    text-align: right;
-}
-#nav ul li {
-    display: inline-block;
-    font-size: 22px;
-}
-#nav ul li:hover {
-    background-color: #333;
-
-}
-#nav ul li a, visited {
-    color: #CCC;
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    text-align: left;
-}
-#nav ul li:hover ul {
-    display: block;
-}
-#nav ul ul {
-    display: none;
-    position: absolute;
-    background-color: #333;
-    /*border: 5px solid #222;*/
-    border-top: 0;
-   /* margin-left: -5px;*/
-}
-#nav ul ul li {
-    display: block;
-}
-#nav ul ul li a:hover {
-    color: #699;
-}
+	
 
 
 
