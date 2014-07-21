@@ -77,6 +77,7 @@ header {
 }
 
 /*==================
+<<<<<<< HEAD
 =========BODY=======
 ==================*/
 
@@ -119,6 +120,8 @@ header {
 
 
 /*==================
+=======
+>>>>>>> origin/master
 =========DROPDOWN MENU=======
 ==================*/
 
@@ -147,6 +150,7 @@ header {
 #nav ul li {
     display: inline-block;
     font-size: 22px;
+
 }
 #nav ul li:hover {
     background-color: #333;
@@ -158,6 +162,7 @@ header {
     padding: 15px;
     text-decoration: none;
     text-align: left;
+
 }
 #nav ul li:hover ul {
     display: block;
@@ -172,24 +177,101 @@ header {
 }
 #nav ul ul li {
     display: block;
+    font-family: Calibri;
 }
 #nav ul ul li a:hover {
     color: #699;
 }
 
 /*==================
-=========CONTACT=======
+=========BODY=======
 ==================*/
 
+.sub_header {
+    margin: 0 auto 0 auto;
+}
+
+
+img {
+    max-width: 50%;
+    border-radius: 10px;
+    margin: 0px 20px 0px 20px;
+    float: left;
+}
+
+.bio_wrapper {
+    float: left;
+    margin-left: 0px;
+    white-space: nowrap;
+}
+
+.bio_wrapper .about {
+    margin-left: 0px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.name {
+	margin-left: 20px;
+	padding: 3px;
+	font-size: 36px;
+}
+
+.edu , .description {
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.bio p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bio_wrapper p {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.college a:hover {
+    text-decoration: underline;
+}
+
+.job a:hover {
+    text-decoration: underline;
+}
+
+.bio {
+    font-size: 20px;
+    float: left;
+}
+
+.college a {
+    text-decoration: none;
+    color: #008BB2;
+}
+
+.job a {
+    text-decoration: none;
+    color: #008BB2;
+}
+
+
+/*==================
+=========CONTACT=======
+==================*/
+.contact {
+    float: left;
+    margin-left: 20px;
+    border-top: solid #55626B;
+}
+
 .contact h2 {
-    margin: 0px 20px 0px;
-    border-top: solid #55626B 1px;
-    padding-top: 20px;
-    font-size: 30px;
+    text-decoration: underline;
 }
 
 .contact p {
-    margin-left: 20px;
     padding-top: 10px;
     font-size: 18px
 }
@@ -208,22 +290,52 @@ header {
 }
 
 .back {
+    width: 200px;
+    margin: 0px 20px 0px auto;
+    font-size: 18px;  
+    float: right;
     border: solid #55626B;
+    padding: 15px;
     background: #55626B;
+<<<<<<< HEAD
     margin: 40px 20px 20px;
     float: left;
     padding: 8px;
     width: 200px;
     font-size: 18px;    
+=======
+>>>>>>> origin/master
 }
 
 .back a {
+    color: #CCC;
     text-decoration: none;
-    color: white;
-
 }
 
+.back a:hover {
+     text-decoration: underline;
+}
 
+.twitter {
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+/*==================
+=========FOOTER=======
+==================*/
+
+footer {
+    background-color: #55626B;
+    height: 100%;
+    padding: 40px 10px 40px 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 40px;
+    color: #DCDCDC;
+}
 
 
 
