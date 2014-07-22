@@ -22,8 +22,7 @@ html {
 }
 
 header {
-    /*background: linear-gradient(to right, #55626B , black);*/
-	background-color: #55626B;
+    background: linear-gradient(to right, #55626B, black);
 	height: 100%;
 	padding: 40px 10px 40px 10px;
 }
@@ -41,27 +40,42 @@ header {
     font-weight: 700;
 }
 
+
 /*==================
 =========OVERLAY CONTENT=======
 ==================*/
 
-.details a {
-	text-decoration: none;
+.simple_overlay {
+	height: 400px;
+	width: 800px;
+	color: white;
 }
 
-.details p a {
-	color: #008BB2;
+.simple_overlay img {
+	width: 400px;
+	height: 400px;
+}
+
+.simple_overlay a {
+	color: white;
+	text-decoration: underline;
+}
+
+.details h4 {
+	font-size: 20px;
 }
 
 .details a:hover {
-	text-decoration: underline;
 	color: #008BB2;
 }
+
+
 
 
 /*==================
 =========BODY=======
 ==================*/
+
 
 .current {
 	color: #55626B;
@@ -91,6 +105,10 @@ header {
 	display: block;
 	color: #DCDCDC;
 	width: 250px;
+}
+
+.bailey p {
+	color: red;
 }
 
 /*==================
