@@ -10,7 +10,17 @@ Compliment: Medium Blue, #00C6FF, 0, 198, 255
 Sup: Dark Sand, #B25800, 178, 88, 0
 Sup: Light Sand, #FFBF81, 255, 191, 129
 
+/*==================
+=========MEDIA QUERY=======
 ==================*/
+
+@media screen (min-width: 680px) {
+    html {
+        background-color: red;
+    } 
+    
+}
+
 /*==================
 =======HEADER=======
 ==================*/
