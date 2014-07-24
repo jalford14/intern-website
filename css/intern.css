@@ -19,7 +19,7 @@ html {
 }
 
 header {
-    background-color: #55626B;
+    background: linear-gradient(to right, #55626B, black);
     height: 100%;
     padding: 40px 10px 40px 10px;
 }
@@ -32,7 +32,7 @@ header {
     padding: 5px;
     color: #DCDCDC;
     display: block;
-    font-family: "jaf-facitweb", sans-serif;
+    font-family:'Open Sans';
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -41,11 +41,16 @@ header {
 =========BODY=======
 ==================*/
 
-
-.name {
+body {
+    font-family: 'Open Sans';
+}
+ 
+.sub_header .name {
 	margin-left: 20px;
 	padding: 3px;
 	font-size: 36px;
+    font-family: 'Open Sans';
+    font-weight: bold;
 }
 
 .img {
@@ -91,7 +96,7 @@ header {
 img {
     max-width: 50%;
     border-radius: 10px;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 20px;
     float: left;
 }
 
@@ -101,14 +106,17 @@ img {
     white-space: nowrap;
 }
 
-.bio_wrapper .about {
-    margin-left: 0px;
-    font-size: 36px;
+.about {
+    font-size: 32px;
     font-weight: bold;
 }
 
+.questions p {
+    text-decoration: underline;
+}
+
 .name {
-	margin-left: 20px;
+	margin-left: 0px;
 	padding: 3px;
 	font-size: 36px;
 }
@@ -120,13 +128,20 @@ img {
     margin-left: 0px;
 }
 
+.misc {
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
 .bio p {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.bio_wrapper p {
-    margin-left: 0px;
+.bio p {
+    margin-left: 20px;
     margin-right: 20px;
 }
 
@@ -154,9 +169,30 @@ img {
 }
 
 
+
 /*==================
 =========CONTACT=======
 ==================*/
+
+.back {
+    text-decoration: none;
+
+}
+
+.back div {
+    color: #CCC;
+    border: solid transparent;
+    background-color: #55626B;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.back div:hover {
+    transition: .25s;
+    background-color: #333A40;
+}
+
 .contact {
     float: left;
     margin-left: 20px;
@@ -179,37 +215,6 @@ img {
 
 .contact p a:hover {
     text-decoration: underline;
-}
-
-.twitter-timeline {
-  
-}
-
-.back {
-    width: 200px;
-    margin: 0px 20px 0px auto;
-    font-size: 18px;  
-    float: right;
-    border: solid #55626B;
-    background: #55626B;
-    margin: 40px 20px 20px;
-    padding: 8px;
-    width: 200px;
-    font-size: 18px;    
-}
-
-.back a {
-    color: #CCC;
-    text-decoration: none;
-}
-
-.back a:hover {
-     text-decoration: underline;
-}
-
-.twitter {
-    width: 600px;
-    padding-bottom: 20px;
 }
 
 /*==================

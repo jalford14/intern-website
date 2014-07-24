@@ -69,15 +69,15 @@ header {
 	font-family: 'Open Sans'
 }
 
-.han {
+.han, .emily {
 	font-size: 12px;
 }
 
-.jenny, .mel, .bail {
+.jenny, .mel, .bail, .jess, .gar, .joy {
 	font-size: 13px;
 }
 
-.alex, .blake, .ash, .tory, .steve, .aaron, .joy, .jes {
+.alex, .blake, .ash, .tory, .steve, .aaron, .jes, .chloe, .tom, .amy, .mar {
 	font-size: 14px;
 }
 
@@ -126,7 +126,7 @@ header {
 ==================*/
 
 footer {
-	background-color: #55626B;
+	background: linear-gradient(to right, #55626B, black);
 	height: 100%;
 	padding: 40px 10px 40px 10px;
 	color: white;
