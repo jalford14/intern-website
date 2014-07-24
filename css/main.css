@@ -35,7 +35,7 @@ header {
 	padding: 5px;
     color: #DCDCDC;
     display: block;
-    font-family: "jaf-facitweb", sans-serif;
+    font-family:'Open Sans';
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -46,16 +46,14 @@ header {
 ==================*/
 
 .simple_overlay {
-	width: 90%;
-	max-height: 90%;
-	max-height: 400px;
-	max-width: 800px;
+	height: 400px;
+	width: 800px;
 	color: white;
 }
 
 .simple_overlay img {
-	max-width: 400px;
-	max-height: 400px;
+	width: 400px;
+	height: 400px;
 }
 
 .simple_overlay a {
@@ -63,17 +61,25 @@ header {
 	text-decoration: underline;
 }
 
-.details h1, h4, .details p  {
-	font-size: 100%;
-	margin-left: 100px;
-}
-
 .details a:hover {
 	color: #008BB2;
 }
 
+.details {
+	font-family: 'Open Sans'
+}
 
+.han {
+	font-size: 12px;
+}
 
+.jenny, .mel, .bail {
+	font-size: 13px;
+}
+
+.alex, .blake, .ash, .tory, .steve, .aaron, .joy, .jes {
+	font-size: 14px;
+}
 
 /*==================
 =========BODY=======
@@ -100,6 +106,7 @@ header {
 	background-color: rgba(85, 98, 107, .7);
 	max-width: 350px;
 	margin-right: 35px;
+	font-family:'Open Sans';
 	margin-bottom: 20px;
 	text-align: center;
 }
