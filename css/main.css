@@ -14,6 +14,12 @@ Sup: Light Sand, #FFBF81, 255, 191, 129
 
 
 /*==================
+=======MEDIA QUERIES=======
+==================*/
+
+
+
+/*==================
 =======HEADER=======
 ==================*/
 
@@ -57,19 +63,28 @@ header {
 }
 
 .simple_overlay a {
-	color: white;
-	text-decoration: underline;
+	color: #7ECAFF;
+	text-decoration: none;
 }
 
 .details a:hover {
-	color: #008BB2;
+	color: #55626b;
+	transition: .25s;
 }
 
 .details {
 	font-family: 'Open Sans'
 }
 
-.han, .emily {
+.details h1, h4{
+	text-transform: uppercase;
+}
+
+/*.han {
+	font-size: 11px;
+}*/
+
+.emily, .han {
 	font-size: 12px;
 }
 
@@ -77,7 +92,7 @@ header {
 	font-size: 13px;
 }
 
-.alex, .blake, .ash, .tory, .steve, .aaron, .jes, .chloe, .tom, .amy, .mar {
+.alex, .blake, .ash, .tory, .steve, .aaron, .jes, .chloe, .tom, .amy, .mar, .jim {
 	font-size: 14px;
 }
 
