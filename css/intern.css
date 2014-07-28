@@ -42,6 +42,19 @@ header {
 =========BODY=======
 ==================*/
 
+.questions {
+    float: left;
+    display: inline-block;
+    margin-right: 80px;
+    margin-left: 20px;
+
+}
+
+.questions a {
+    text-decoration: none;
+    color: #008BB2;
+}
+
 body {
     font-family: 'Open Sans';
 }
@@ -60,22 +73,14 @@ body {
 	border-radius: 10px;
 	margin: 0px 10px 0px 20px;
     float: left;
-
-}
-
-.bio a:hover {
-    text-decoration: underline;
 }
 
 .bio {
 	list-style: none;
     margin-bottom: 20px;
     font-size: 18px;
-}
-
-.bio li{
-    padding: 10px;
-    overflow: hidden;
+    border: solid black;
+    width: 60%;
 }
 
 .bio a {
@@ -89,6 +94,7 @@ body {
 =========BODY=======
 ==================*/
 
+
 .sub_header {
     margin: 0 auto 0 auto;
 }
@@ -101,19 +107,15 @@ img {
     float: left;
 }
 
-.bio_wrapper {
-    float: left;
-    margin-left: 0px;
-    white-space: nowrap;
-}
-
 .about {
     font-size: 32px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .questions p {
     text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .name {
@@ -125,50 +127,31 @@ img {
 
 .edu , .description {
     text-decoration: underline;
-    font-size: 24px;
     font-weight: bold;
     margin-left: 0px;
-}
-
-.misc {
-    text-decoration: underline;
-    font-size: 24px;
-    font-weight: bold;
-    margin-left: 0px;
+    text-transform: uppercase;
+    /*font-size: 32px;*/
 }
 
 .bio p {
     margin-left: 20px;
     margin-right: 20px;
-}
-
-.bio p {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-.college a:hover {
-    text-decoration: underline;
-}
-
-.job a:hover {
-    text-decoration: underline;
 }
 
 .bio {
-    font-size: 20px;
     float: left;
-}
-
-.college a {
-    text-decoration: none;
-    color: #008BB2;
 }
 
 .job a {
     text-decoration: none;
     color: #008BB2;
 }
+
+a:hover {
+    color: #55626b;
+    transition: .25s;
+}
+
 
 
 
@@ -188,11 +171,6 @@ img {
     padding: 10px;
     width: 200px;
     margin-bottom: 20px;
-}
-
-.back div:hover {
-    transition: .25s;
-    background-color: #333A40;
 }
 
 .contact {
@@ -216,8 +194,11 @@ img {
 }
 
 .contact p a:hover {
-    text-decoration: underline;
+    color: #55626b;
+    transition: .25s;
 }
+
+
 
 /*==================
 =========FOOTER=======
@@ -234,7 +215,6 @@ footer {
     margin-top: 40px;
     color: #DCDCDC;
 }
-
 
 
 
