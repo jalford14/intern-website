@@ -42,15 +42,15 @@ header {
 =========BODY=======
 ==================*/
 
-.questions {
+.questions,.description {
     float: left;
     display: inline-block;
-    margin-right: 80px;
+    /*margin-right: 80px;*/
     margin-left: 20px;
 
 }
 
-.questions a {
+.questions a, .description a {
     text-decoration: none;
     color: #008BB2;
 }
@@ -59,13 +59,18 @@ body {
     font-family: 'Open Sans';
 }
  
-.sub_header .name {
-	margin-left: 20px;
+.name {
 	padding: 3px;
 	font-size: 36px;
     font-family: 'Open Sans';
     font-weight: bold;
+    margin-left: 20px;
+    padding: 3px;
+    font-size: 36px;
+    text-transform: uppercase;
 }
+
+
 
 .img {
 	width: 60%;
@@ -73,14 +78,15 @@ body {
 	border-radius: 10px;
 	margin: 0px 10px 0px 20px;
     float: left;
+    clear: both;
 }
 
 .bio {
 	list-style: none;
     margin-bottom: 20px;
     font-size: 18px;
-    border: solid black;
     width: 60%;
+    float: right;
 }
 
 .bio a {
@@ -111,6 +117,15 @@ img {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.description {
+    float: left;
+}
+
+.questions, .description {
+    width: 324px;
 }
 
 .questions p {
@@ -118,28 +133,9 @@ img {
     text-transform: uppercase;
 }
 
-.name {
-	margin-left: 0px;
-	padding: 3px;
-	font-size: 36px;
-    text-transform: uppercase;
-}
-
-.edu , .description {
-    text-decoration: underline;
-    font-weight: bold;
-    margin-left: 0px;
-    text-transform: uppercase;
-    /*font-size: 32px;*/
-}
-
 .bio p {
     margin-left: 20px;
     margin-right: 20px;
-}
-
-.bio {
-    float: left;
 }
 
 .job a {
@@ -160,32 +156,23 @@ a:hover {
 ==================*/
 
 .back {
-    text-decoration: none;
-
-}
-
-.back div {
     color: #CCC;
     border: solid transparent;
     background-color: #55626B;
     padding: 10px;
     width: 200px;
     margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.back a:hover {
+    color: red;
 }
 
 .contact {
-    float: left;
+    clear: both;
     margin-left: 20px;
-    border-top: solid #55626B;
-}
-
-.contact h2 {
-    text-decoration: underline;
-}
-
-.contact p {
-    padding-top: 10px;
-    font-size: 18px
 }
 
 .contact p a {
