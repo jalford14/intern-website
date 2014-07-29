@@ -1,0 +1,12 @@
+.tb_head {
+	border-bottom: solid black;
+	padding-bottom: 5px;
+}
+
+td, th {
+	padding: 15px;
+}
+
+.q {
+	border-right: solid black 1px;
+}
