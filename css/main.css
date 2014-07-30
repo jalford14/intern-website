@@ -12,13 +12,6 @@ Sup: Light Sand, #FFBF81, 255, 191, 129
 
 ==================*/
 
-
-/*==================
-=======MEDIA QUERIES=======
-==================*/
-
-
-
 /*==================
 =======HEADER=======
 ==================*/
@@ -158,16 +151,86 @@ footer {
 
 @media (max-width: 520px) {
 	header {
-		font-size: 12px;
+		font-size: 13px;
 		text-align: center;
 	}
 	.section {
 		text-align: center;
-		text-decoration: underline;
 	}
-	img {
-		width: 40px;
+	.main-wrapper img {
+		width: 174px;
+	}
+
+	.simple_overlay h1 {
+		font-size: 18px;
+	}
+
+	.simple_overlay h1 a {
+		color: #7ECAFF; 
+	}
+
+	.simple_overlay h1 a:hover {
+	    color: #7ECAFF;
+	    color: #55626b;
+	    transition: .5s;
+	}
+
+	.main-wrapper p {
+		width: 174px;
+		font-size: 12px;
+	}
+	.simple_overlay {
+		height: 900px;
+		width: 350px;
+		color: white;
+	}
+	.details {
+		margin-top: 280px;
+		width: 325px;
+		height:;
+	}
+
+	.simple_overlay img {
+		height: 300px;
+		width: 350px;
 	}
 }
 
+@media (min-width: 520px) and (max-width:900px) {
+	.section {
+		text-align: center;
+	}
+	/*.main-wrapper img {
+		width: 174px;
+	}*/
 
+	.simple_overlay h1 {
+		font-size: 18px;
+	}
+
+	.simple_overlay h1 a {
+		color: #7ECAFF; 
+	}
+
+	.simple_overlay h1 a:hover {
+	    color: #7ECAFF;
+	    color: #55626b;
+	    transition: .5s;
+	}
+
+	
+	.simple_overlay {
+		height: 600px;
+		width: 600px;
+		color: white;
+	}
+	.details {
+		width: 325px;
+		height:;
+	}
+
+	.simple_overlay img {
+		height: 300px;
+		width: 300px;
+	}
+}
