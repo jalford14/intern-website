@@ -81,26 +81,30 @@ header {
 	text-transform: uppercase;
 }
 
-/*.han {
-	font-size: 11px;
-}*/
-
-.emily, .han {
-	font-size: 12px;
+.hannah {
+	font-size: 29px;
 }
 
-.jenny, .mel, .bail, .jess, .gar, .joy {
+ .bail, .jess, .han, .emily {
 	font-size: 13px;
 }
 
-.alex, .blake, .ash, .tory, .steve, .aaron, .jes, .chloe, .tom, .amy, .mar, .jim {
+.mel, .jenny,  .joy, .amy,  .gar {
 	font-size: 14px;
+}
+
+.tory, .mar, .chloe, .aaron, .steve, .alex, .jim{
+	font-size: 15px;
 }
 
 /*==================
 =========BODY=======
 ==================*/
 
+.section {
+	font-family: 'Open Sans';
+	text-transform: uppercase;
+}
 
 .current {
 	color: #55626B;
@@ -148,6 +152,22 @@ footer {
 	color: #DCDCDC;
 }
 
+/*==================
+=========MEDIA QUERIES=======
+==================*/
 
+@media (max-width: 520px) {
+	header {
+		font-size: 12px;
+		text-align: center;
+	}
+	.section {
+		text-align: center;
+		text-decoration: underline;
+	}
+	img {
+		width: 40px;
+	}
+}
 
 

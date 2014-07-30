@@ -77,21 +77,8 @@ body {
 	border-radius: 10px;
 	margin: 0px 10px 0px 20px;
     clear: both;
+    float: left;
 }
-
-.bio {
-	list-style: none;
-    font-size: 18px;
-    width: 60%;
-    float: right;
-}
-
-.bio a {
-    text-decoration: none;
-    color: #008BB2;
-}
-
-
 
 /*==================
 =========BODY=======
@@ -103,27 +90,12 @@ body {
    height: 425px;
 }
 
-img {
-    border-radius: 10px;
-    float: left;
-}
-
 .about {
     font-size: 32px;
     font-weight: bold;
     text-transform: uppercase;
-    text-decoration: underline;
     max-width: 300px;
 }
-
-.description {
-    width:300px;
-    margin: 0 auto;  
-    clear: both;
-    float: right;
-}
-
-
 
 a:hover {
     color: #55626b;
@@ -149,9 +121,12 @@ a:hover {
     text-transform: uppercase;
 }
 
-.back a:hover {
-    color: red;
+.back:hover {
+    background-color: #999;
+    color: #55626B;
+    transition: .5s;
 }
+
 
 .contact {
     margin: 0 auto;
@@ -209,6 +184,7 @@ td, th {
 
 td {
     font-size: 14px;
+    text-align: center;
 }
 
 .q {
