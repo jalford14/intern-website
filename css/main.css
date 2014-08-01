@@ -1,3 +1,4 @@
+@@ -1,236 +0,0 @@
 @import url('http://necolas.github.io/normalize.css/3.0.1/normalize.css');
 
 /*==================
@@ -143,6 +144,7 @@ footer {
 	text-transform: uppercase;
 	font-size: 20px;
 	color: #DCDCDC;
+	font-family: 'Open Sans';
 }
 
 /*==================
@@ -151,19 +153,28 @@ footer {
 
 @media (max-width: 520px) {
 	header {
-		font-size: 13px;
+		font-size: 8px;
 		text-align: center;
+		letter-spacing: 0px;
 	}
 	.section {
 		text-align: center;
 	}
 	.main-wrapper img {
-		width: 174px;
+		width: 167px;
+	}
+
+	.simple_overlay h4 {
+		margin: 15px;
+		margin-left: 0;
 	}
 
 	.simple_overlay h1 {
 		font-size: 18px;
+		margin: 8px;
+		margin-left: 0;
 	}
+
 
 	.simple_overlay h1 a {
 		color: #7ECAFF; 
@@ -176,37 +187,50 @@ footer {
 	}
 
 	.main-wrapper p {
-		width: 174px;
+		width: 167px;
 		font-size: 12px;
 	}
 	.simple_overlay {
-		height: 900px;
-		width: 350px;
+		height: 710px;
+		width: 300px;
 		color: white;
+		position: absolute;
+		margin: 0 auto 0 auto;
 	}
 	.details {
 		margin-top: 280px;
-		width: 325px;
-		height:;
+		width: 280px;
+		padding: 0;
 	}
 
 	.simple_overlay img {
 		height: 300px;
-		width: 350px;
+		width: 300px;
 	}
 }
 
-@media (min-width: 520px) and (max-width:900px) {
+@media (min-width: 520px) and (max-width:944px) {
+	header {
+		font-size: 10.25px;
+	}
 	.section {
 		text-align: center;
 	}
-	/*.main-wrapper img {
-		width: 174px;
-	}*/
+	.main-wrapper img {
+		width: 245px;
+	}
+
+	.simple_overlay h4 {
+		margin: 15px;
+		margin-left: 0;
+	}
 
 	.simple_overlay h1 {
 		font-size: 18px;
+		margin: 8px;
+		margin-left: 0;
 	}
+
 
 	.simple_overlay h1 a {
 		color: #7ECAFF; 
@@ -218,19 +242,24 @@ footer {
 	    transition: .5s;
 	}
 
-	
+	.main-wrapper p {
+		width: 245px;
+		font-size: 17px;
+	}
 	.simple_overlay {
-		height: 600px;
-		width: 600px;
+		height: 745px;
+		width: 350px;
 		color: white;
 	}
 	.details {
+		margin-top: 340px;
 		width: 325px;
-		height:;
+		padding: 0;
 	}
 
 	.simple_overlay img {
-		height: 300px;
-		width: 300px;
+		height: 350px;
+		width: 350px;
 	}
+}
 }
