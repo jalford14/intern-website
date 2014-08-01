@@ -80,6 +80,10 @@ body {
     float: left;
 }
 
+.img2 {
+    display: none;
+}
+
 /*==================
 =========BODY=======
 ==================*/
@@ -107,7 +111,7 @@ a:hover {
 =========CONTACT=======
 ==================*/
 
-.back {
+.back, .back2 {
     color: #CCC;
     border: solid transparent;
     background-color: #55626B;
@@ -119,6 +123,10 @@ a:hover {
     text-align:center;
     float: right;
     text-transform: uppercase;
+}
+
+.back2 {
+    display: none;
 }
 
 .back:hover {
@@ -195,14 +203,26 @@ td {
 =========MEDIA QUERIES=======
 ==================*/
 
-@media (max-width: 1064px) {
 
-    
-    
+
+/*==================
+=========IPAD/HANDHELD TABLETS=======
+==================*/
+
+@media (max-width: 1064px) and (min-width: 769px) {
+    .name {
+        margin: 0, auto;
+        margin-right: 50px;
+        padding: 0px;
+    }
     .img {
-        max-width: none;
-        margin: 0 auto 0 auto;
-        float: right;
+        display: none;
+    }
+    .img2 {
+        display: block;
+        margin:0 auto;
+        margin-left: 100px;
+        float: none;
         width: 500px;
         position: absolute;
         clip: rect(30px, 800px, 275px, 0px);
@@ -216,6 +236,199 @@ td {
 
     .descrip {
         clear: both;
+    }
+    .contact {
+        clear: both;
+    }
+    footer {
+        margin-top: 100px;
+    }
+}
+
+
+/*==================
+=========HIGH END WINDOWS PHONE=======
+==================*/
+
+@media (max-width: 768px) and (min-width: 641px) {
+    header {
+            font-size: 10.25px;
+        }
+        .section {
+            text-align: center;
+        }
+
+    .name {
+        font-size: 30px;
+        margin: 0, auto;
+        margin-right: 25px;
+        margin-bottom: 0px;
+    }
+    .img {
+        display: none;
+    }
+    .img2 {
+        display: block;
+        margin: 0 auto;
+        margin-left: 35px;
+        float: none;
+        width: 436px;
+        position: absolute;
+        clip: rect(30px, 800px, 275px, 0px);
+        border-radius: 0px;
+    }
+
+    table {
+        width: 100%;
+        float: right;
+        margin-left: 200px;
+        margin-top: 300px;
+        margin-bottom: 40px;
+    }
+
+    .descrip {
+        clear: both;
+    }
+    .contact {
+        clear: both;
+    }
+    .back {
+        display: none;
+    }
+    .back2 {
+        display: inline;
+        /*margin-bottom: 400px;*/
+        margin-right: 100px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+/*==================
+=========IPHONE LANDSCAPE=======
+==================*/
+
+@media (width: 640px) {
+    header {
+            font-size: 10.25px;
+        }
+        .section {
+            text-align: center;
+        }
+
+    .name {
+        margin: 0, auto;
+        margin-right: 25px;
+        margin-bottom: 0px;
+    }
+    .img {
+        display: none;
+    }
+    .img2 {
+        display: block;
+        margin: 0 auto;
+        margin-right: 100px;
+        float: none;
+        width: 436px;
+        position: absolute;
+        clip: rect(30px, 800px, 275px, 0px);
+        border-radius: 0px;
+    }
+
+    table {
+        width: 100%;
+        float: right;
+        margin-left: 200px;
+        margin-top: 300px;
+        margin-bottom: 40px;
+    }
+
+    .descrip {
+        clear: both;
+    }
+    .contact {
+        clear: both;
+    }
+    .back {
+        display: none;
+    }
+    .back2 {
+        display: inline;
+        /*margin-bottom: 400px;*/
+        margin-right: 100px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+}
+
+
+
+/*==================
+=========IPHONE AND BELOW=======
+==================*/
+
+@media (max-width: 639px) {
+    header {
+            font-size: 10.25px;
+        }
+        .section {
+            text-align: center;
+        }
+
+    .name {
+        margin: 0, auto;
+        margin-right: 25px;
+        margin-bottom: 0px;
+        font-size: 35px;
+    }
+    .img {
+        display: none;
+    }
+    .img2 {
+        display: block;
+        margin: 0 auto;
+        margin-right: 100px;
+        float: none;
+        width: 322px;
+        position: absolute;
+        clip: rect(30px, 800px, 275px, 0px);
+        border-radius: 0px;
+    }
+
+    table {
+        width: 100%;
+        float: right;
+        margin-left: 200px;
+        margin-top: 250px;
+        margin-bottom: 40px;
+        padding: 5px;
+        font-size: 12px;
+    }
+    .descrip {
+        clear: both;
+    }
+    .contact {
+        clear: both;
+    }
+    .back {
+        display: none;
+    }
+    .back2 {
+        display: inline;
+        /*margin-bottom: 400px;*/
+        margin-right: 25px;
+    }
+    footer {
+        margin-top: 100px;
     }
 }
 
