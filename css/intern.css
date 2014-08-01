@@ -73,7 +73,7 @@ body {
 
 .img {
 	width: 60%;
-	max-width: 300px;
+    max-width: 300px;
 	border-radius: 10px;
 	margin: 0px 10px 0px 20px;
     clear: both;
@@ -128,18 +128,18 @@ a:hover {
 }
 
 
-.contact {
+.contact, .descrip {
     margin: 0 auto;
     border-top: solid #55626B 2px;
     width: 70%;   
 }
 
-.contact p a {
+.contact p a, .descrip p a {
     text-decoration: none;
     color: #008BB2;
 }
 
-.contact p a:hover {
+.contact p a:hover, .descrip p a:hover {
     color: #55626b;
     transition: .25s;
 }
@@ -191,7 +191,33 @@ td {
     text-transform: uppercase;
 }
 
+/*==================
+=========MEDIA QUERIES=======
+==================*/
 
+@media (max-width: 1064px) {
+
+    
+    
+    .img {
+        max-width: none;
+        margin: 0 auto 0 auto;
+        float: right;
+        width: 500px;
+        position: absolute;
+        clip: rect(30px, 800px, 275px, 0px);
+        border-radius: 0px;
+    }
+
+    table {
+        float: right;
+        margin: 300px 20px 40px 20px;
+    }
+
+    .descrip {
+        clear: both;
+    }
+}
 
 
 
